@@ -5,7 +5,6 @@
   "main": "src/main.ts",
   "scripts": {
     "build": "tsc",
-    "start": "tsc src/main.ts",
     "dev": "ts-node-dev --ignore-watch node_modules src/main.ts"
   },
   "keywords": [],
@@ -15,6 +14,8 @@
     "@adiwajshing/baileys": "^4.0.1",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^9.1.4",
-    "qrcode-terminal": "^0.12.0"
+    "qrcode-terminal": "^0.12.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
   }
 }

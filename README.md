@@ -96,7 +96,7 @@ Before running the below command, make sure you're in the project directory that
 1. Run the WhatsApp Bot
 
 ```sh
-yarn start
+yarn dev
 ```
 You will see a QR Code printed on your terminal, scan it with WhatsApp
 
