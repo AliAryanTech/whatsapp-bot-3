@@ -1,6 +1,3 @@
-import { join } from 'path';
-import { Boom } from '@hapi/boom';
-import { readdirSync } from 'fs';
 import { Client } from './client/client';
 import { fetchLatestBaileysVersion, useSingleFileAuthState } from "@adiwajshing/baileys";
 
