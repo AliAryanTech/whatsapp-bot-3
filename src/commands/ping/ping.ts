@@ -9,6 +9,8 @@ export = class extends Command {
     }
 
     run = async (msg) => {
+        const sock = this.client.sock
+
         const templateButtons = [
             {index: 1, urlButton: {displayText: 'Discord Server', url: 'https://discord.gg/harddisk'}},
             {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+1 (234) 5678-901'}},
@@ -20,6 +22,6 @@ export = class extends Command {
             templateButtons: templateButtons
         }        
 
-        this.client.sock.sendMessage(msg.key.remoteJid!, templateMessage)
+        sock.sendMessage(msg.key.remoteJid!, templateMessage)
     }
 }

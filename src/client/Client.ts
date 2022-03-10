@@ -1,33 +1,20 @@
 import { join } from 'path';
-import { Boom } from '@hapi/boom'
 import { readdirSync } from 'fs';
-import makeWASocket, { DisconnectReason, AnyMessageContent } from '@adiwajshing/baileys';
+import makeWASocket, { DisconnectReason, AnyMessageContent, WASocket } from '@adiwajshing/baileys';
 
 export class Client {
-    sock: any
+    sock: WASocket
     options: object
     commands: object[]
 
     constructor(options: object) {
         this.options = options
-
         this.commands = []
         this.createCommands()
     }
 
     start() {        
         this.sock = makeWASocket(this.options)
-
-        this.sock.ev.on('connection.update', (update) => {
-            const { connection, lastDisconnect } = update
-            
-            if (connection === 'close') {
-                if ((lastDisconnect.error as Boom)?.output?.statusCode !== DisconnectReason.loggedOut) {
-                    this.start()
-                }
-            }
-        })
-
         this.loadEvent()
     }
 

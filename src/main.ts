@@ -1,4 +1,4 @@
-import { Client } from './client/client';
+import { Client } from './client/Client';
 import { fetchLatestBaileysVersion, useSingleFileAuthState } from "@adiwajshing/baileys";
 
 const { state } = useSingleFileAuthState('./src/sessions/sessions.json')

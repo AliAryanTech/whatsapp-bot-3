@@ -9,6 +9,33 @@ export = class extends Command {
     };
 
     run = async (msg) => {
-        this.client.sock.sendMessage(msg.key.remoteJid!, { text: "Hello" });
+        const sock = this.client.sock
+
+        const sections = [
+            {
+            title: "Select your hello",
+            rows: [
+                {title: "Hello", rowId: "option1"},
+                {title: "Hi", rowId: "option2", description: "Simple hi"}
+            ]
+            },
+           {
+            title: "Section 2",
+            rows: [
+                {title: "Option 3", rowId: "option3"},
+                {title: "Option 4", rowId: "option4", description: "This is a description V2"}
+            ]
+            },
+        ]
+
+        const listMessage = {
+            text: 'Hello',
+            footer: 'Message sent from: whatsapp-bot',
+            title: 'Menu hello',
+            buttonText: 'Text on the button to view the list',
+            sections
+        }
+
+        sock.sendMessage(msg.key.remoteJid!, listMessage);
     }
 }
