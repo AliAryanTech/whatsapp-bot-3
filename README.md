@@ -17,30 +17,22 @@
 
 ## Table Of Contents
 
-- [This is an example of how to list things you need to use the software and how to install them.](#this-is-an-example-of-how-to-list-things-you-need-to-use-the-software-and-how-to-install-them)
-    - [Prerequisites](#prerequisites-1)
-    - [Installation](#installation)
-  - [Usage](#usage)
-  - [Roadmap](#roadmap)
-  - [Contributing](#contributing)
-    - [Creating A Pull Request](#creating-a-pull-request)
-  - [License](#license)
-  - [Authors](#authors)
-  - [Acknowledgements](#acknowledgements)
+- [Table Of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+- [Deploy to Heroku](#deploy-to-heroku)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+  - [Creating A Pull Request](#creating-a-pull-request)
+- [License](#license)
+- [Authors](#authors)
+- [Acknowledgements](#acknowledgements)
 
 ## About The Project
-
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
-
-Here's why:
-
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 If you want an easy start on getting commands on your [Whatsapp](https://web.whatsapp.com) bot. This project comes in with many in-built useful and flexible features, this is the only template project you will need
 
@@ -65,19 +57,12 @@ You can deploy the bot to heroku by yourself using the button below:
 - [@adiwajshing/Baileys](https://github.com/adiwajshing/Baileys) 4.0.1
 
 ## Getting Started
-To get started with GNU/Linux Legacy Way his is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-=======
 GNU/Linux Legacy: you can deploy in minimal time without any prior knowledge using this method.
 To run the bot on your device manually, you can use the following commands
 
 ### Prerequisites
 [WhatsApp Account](https://whatsapp.com/download) If you don't have one, you can sign up for free
->>>>>>> 9bbe8c05b9fd2ebe6e30903ea24c851c7c84da71
 
 * npm
 
@@ -109,7 +94,6 @@ yarn install
 Before running the below command, make sure you're in the project directory that you've just cloned!
 
 1. Run the WhatsApp Bot
->>>>>>> 9bbe8c05b9fd2ebe6e30903ea24c851c7c84da71
 
 ```sh
 yarn start
@@ -125,7 +109,6 @@ See the [open issues](https://github.com/Nata4n/whatsapp-bot/issues) for a list 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
 * If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Nata4n/whatsapp-bot/issues/new) to discuss it, or directly create a pull request after you edit the *code* with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
@@ -144,13 +127,10 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Nata4n/whats
 
 ## Authors
 
-<<<<<<< HEAD
-* **Natan Rodrigues** - Cyber Security student - [Github](https://github.com/Nata4n/whatsapp-bot)
-
+**Natan Rodrigues** - Cyber Security student - [@Nata4n](https://github.com/Nata4n)
 
 ## Acknowledgements
 
 * [Mr Diniz](https://github.com/mrdiniz88)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
