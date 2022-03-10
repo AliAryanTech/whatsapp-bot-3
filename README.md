@@ -127,7 +127,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Nata4n/whats
 
 ## Authors
 
-*Natan Rodrigues** - Cyber Security student - [@Nata4n](https://github.com/Nata4n)
+**Natan Rodrigues** - Cyber Security student - [@Nata4n](https://github.com/Nata4n)
 
 ## Acknowledgements
 
