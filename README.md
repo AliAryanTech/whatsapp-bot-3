@@ -17,24 +17,19 @@
 
 ## Table Of Contents
 
-- [Table Of Contents](#table-of-contents)
-- [About The Project](#about-the-project)
-- [Deploy to Heroku](#deploy-to-heroku)
-- [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-  - [Creating A Pull Request](#creating-a-pull-request)
-- [License](#license)
-- [Authors](#authors)
-- [Acknowledgements](#acknowledgements)
+- [This is an example of how to list things you need to use the software and how to install them.](#this-is-an-example-of-how-to-list-things-you-need-to-use-the-software-and-how-to-install-them)
+    - [Prerequisites](#prerequisites-1)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Roadmap](#roadmap)
+  - [Contributing](#contributing)
+    - [Creating A Pull Request](#creating-a-pull-request)
+  - [License](#license)
+  - [Authors](#authors)
+  - [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
-<<<<<<< HEAD
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
 
 Here's why:
@@ -46,7 +41,7 @@ Here's why:
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
-=======
+
 If you want an easy start on getting commands on your [Whatsapp](https://web.whatsapp.com) bot. This project comes in with many in-built useful and flexible features, this is the only template project you will need
 
 Here's why:
@@ -58,7 +53,6 @@ Here's why:
 * **Dynamic Event Handler**:
    * All events goes inside the [controllers](https://github.com/Nata4n/whatsapp-bot/tree/main/src/controllers) folder. You don't need to use `socks.ev.on()` in the main file to handle events.
    * Using simple skeleton code for events, you can make any amount of events in the events folder using the event handler.
->>>>>>> 9bbe8c05b9fd2ebe6e30903ea24c851c7c84da71
 
 ## Deploy to Heroku
 You can deploy the bot to heroku by yourself using the button below:
@@ -71,8 +65,6 @@ You can deploy the bot to heroku by yourself using the button below:
 - [@adiwajshing/Baileys](https://github.com/adiwajshing/Baileys) 4.0.1
 
 ## Getting Started
-
-<<<<<<< HEAD
 To get started with GNU/Linux Legacy Way his is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
@@ -114,10 +106,6 @@ yarn install
 ```
 
 ## Usage
-<<<<<<< HEAD
-
-Run the WhatsApp Bot
-=======
 Before running the below command, make sure you're in the project directory that you've just cloned!
 
 1. Run the WhatsApp Bot
@@ -137,11 +125,8 @@ See the [open issues](https://github.com/Nata4n/whatsapp-bot/issues) for a list 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-<<<<<<< HEAD
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Nata4n/whatsapp-bot/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-=======
+
 * If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Nata4n/whatsapp-bot/issues/new) to discuss it, or directly create a pull request after you edit the *code* with necessary changes.
->>>>>>> 9bbe8c05b9fd2ebe6e30903ea24c851c7c84da71
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
 
@@ -161,15 +146,11 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Nata4n/whats
 
 <<<<<<< HEAD
 * **Natan Rodrigues** - Cyber Security student - [Github](https://github.com/Nata4n/whatsapp-bot)
-=======
-**Natan Rodrigues** - Cyber Security student - [@Nata4n](https://github.com/Nata4n)
->>>>>>> 9bbe8c05b9fd2ebe6e30903ea24c851c7c84da71
+
 
 ## Acknowledgements
 
 * [Mr Diniz](https://github.com/mrdiniz88)
-<<<<<<< HEAD
-=======
 
 <p align="right">(<a href="#top">back to top</a>)</p>
->>>>>>> 9bbe8c05b9fd2ebe6e30903ea24c851c7c84da71
+
