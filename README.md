@@ -46,6 +46,8 @@ Here's why:
    * All events goes inside the [controllers](https://github.com/Nata4n/whatsapp-bot/tree/main/src/controllers) folder. You don't need to use `socks.ev.on()` in the main file to handle events.
    * Using simple skeleton code for events, you can make any amount of events in the events folder using the event handler.
 
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+
 ## Deploy to Heroku
 You can deploy the bot to heroku by yourself using the button below:
 
