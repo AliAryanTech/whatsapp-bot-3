@@ -34,7 +34,7 @@
 
 ## About The Project
 
-If you want an easy start on getting commands on your [Whatsapp](https://web.whatsapp.com) bot. This project comes in with many in-built useful and flexible features, this is the only template project you will need:
+If you want an easy start on getting commands on your [Whatsapp](https://web.whatsapp.com) bot. This project comes in with many in-built useful and flexible features, this is the only template project you will need
 
 Here's why:
 
