@@ -39,8 +39,8 @@ If you want an easy start on getting commands on your [Whatsapp](https://web.wha
 Here's why:
 
  * **Dynamic Command Handler**:
-    *  The command handler, you don't need to indulge in main bot files to create your very own command!
-    *  You can simply make command groups (categorized as folders) in the [commands](https://github.com/Nata4n/whatsapp-bot/tree/main/src/commands) folder.
+    * The command handler, you don't need to indulge in main bot files to create your very own command!
+    * You can simply make command groups (categorized as folders) in the [commands](https://github.com/Nata4n/whatsapp-bot/tree/main/src/commands) folder.
 
 * **Dynamic Event Handler**:
    * All events goes inside the [controllers](https://github.com/Nata4n/whatsapp-bot/tree/main/src/controllers) folder. You don't need to use `socks.ev.on()` in the main file to handle events.
