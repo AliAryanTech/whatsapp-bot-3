@@ -58,7 +58,7 @@ You can deploy the bot to heroku by yourself using the button below:
 
 ## Getting Started
 
-To get started with GNU/Linux Legacy Way, you can deploy in minimal time without any prior knowledge using this method.
+GNU/Linux Legacy Way: you can deploy in minimal time without any prior knowledge using this method.
 To run the bot on your device manually, you can use the following commands
 
 ### Prerequisites
