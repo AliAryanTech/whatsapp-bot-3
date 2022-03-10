@@ -127,10 +127,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Nata4n/whats
 
 ## Authors
 
-**Natan Rodrigues** - [@Nata4n](https://github.com/Nata4n)
-natan-sr@hotmail.com
-
-Project Link: [https://github.com/Nata4n/whatsapp-bot](https://github.com/Nata4n/whatsapp-bot)
+*Natan Rodrigues** - Cyber Security student - [@Nata4n](https://github.com/Nata4n)
 
 ## Acknowledgements
 
