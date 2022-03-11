@@ -19,6 +19,7 @@
 
 - [Table Of Contents](#table-of-contents)
 - [About The Project](#about-the-project)
+- [Docker](#docker)
 - [Deploy to Heroku](#deploy-to-heroku)
 - [Built With](#built-with)
 - [Getting Started](#getting-started)
@@ -47,6 +48,15 @@ Here's why:
    * Using simple skeleton code for events, you can make any amount of events in the events folder using the event handler.
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+
+## Docker
+To create a container and run [Whatsapp Bot](https://github.com/Nata4n/whatsapp-bot) You will need to have docker installed on your machine.
+
+Run docker by using:
+
+```sh
+docker-composer up --build
+```
 
 ## Deploy to Heroku
 You can deploy the bot to heroku by yourself using the button below:
@@ -134,5 +144,6 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Nata4n/whats
 ## Acknowledgements
 
 * [Mr Diniz](https://github.com/mrdiniz88)
+* [Introdução-de-docker-para-pentesters](https://harddisk.com.br/p/pt-br-introdu%C3%A7%C3%A3o-de-docker-para-pentesters/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
