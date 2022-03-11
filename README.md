@@ -35,7 +35,7 @@
 
 ## About The Project
 
-If you want an easy start on getting commands on your [Whatsapp](https://web.whatsapp.com) bot. This project comes in with many in-built useful and flexible features, this is the only template project you will need
+If you want an easy start on getting commands on your [WhatsApp](https://web.whatsapp.com) Bot. This project comes in with many in-built useful and flexible features, this is the only template project you will need
 
 Here's why:
 
@@ -50,7 +50,7 @@ Here's why:
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
 
 ## Docker
-To create a container and run [Whatsapp Bot](https://github.com/Nata4n/whatsapp-bot) You will need to have docker installed on your machine.
+To create a container and run [Whatsapp Bot](https://github.com/Nata4n/whatsapp-bot). You will need to have docker installed on your machine.
 
 Run docker by using:
 
@@ -74,7 +74,7 @@ GNU/Linux Legacy: you can deploy in minimal time without any prior knowledge usi
 To run the bot on your device manually, you can use the following commands
 
 ### Prerequisites
-[WhatsApp Account](https://whatsapp.com/download) If you don't have one, you can sign up for free
+[WhatsApp Account](https://whatsapp.com/download): If you don't have one, you can sign up for free
 
 * npm
 
