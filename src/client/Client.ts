@@ -45,12 +45,5 @@ export class Client {
             this.sock.ev.on(newEvent.name, newEvent.run)
         }
     }
-
-    sendMessageWTyping = async (msg: AnyMessageContent, jid: string) => {
-		await this.sock.presenceSubscribe(jid)
-		await this.sock.sendPresenceUpdate('composing', jid)
-		await this.sock.sendPresenceUpdate('paused', jid)
-		await this.sock.sendMessage(jid, msg)
-	}
-    
 }
+
