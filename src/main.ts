@@ -4,7 +4,7 @@ import { fetchLatestBaileysVersion, useSingleFileAuthState } from "@adiwajshing/
 
 const runBot = async () => {
     
-    const { state } = useSingleFileAuthState(`./src/sessions.json`)
+    const { state } = useSingleFileAuthState(`./src/sessions/sessions.json`)
     const { version } = await fetchLatestBaileysVersion()
     
     const client = new Client({
