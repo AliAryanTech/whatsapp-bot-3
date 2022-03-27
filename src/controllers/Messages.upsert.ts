@@ -9,8 +9,16 @@ export = class extends Event {
 
     run = async (m) => {
         const msg = m.messages[0]
-        const command = this.client.commands.find(command => command.name === (msg.message?.conversation ||  msg.message?.extendedTextMessage?.text));
+        const messageContent = (msg.message?.conversation ||  msg.message?.extendedTextMessage?.text)
         
-        if (command) command.run(msg)
+        if (messageContent) {
+            const messageArgs = messageContent.split(' ')
+
+            const [commandName, ...args] = messageArgs
+            const command = this.client.commands.find((command) => command.name === (commandName));
+
+            if (command) command.run(msg, args)
+        }
+
     } 
 }
