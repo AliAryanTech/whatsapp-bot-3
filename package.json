@@ -5,7 +5,7 @@
   "main": "src/main.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node-dev --ignore-watch node_modules src/main.ts"
+    "start:dev": "ts-node-dev --ignore-watch node_modules src/main.ts"
   },
   "keywords": [],
   "author": "",
